@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/aarti22.github.io/static/css/main.93c99f13.css",
+    "main.js": "/aarti22.github.io/static/js/main.fb9ac962.js",
+    "static/js/453.30d0a8e5.chunk.js": "/aarti22.github.io/static/js/453.30d0a8e5.chunk.js",
+    "index.html": "/aarti22.github.io/index.html",
+    "main.93c99f13.css.map": "/aarti22.github.io/static/css/main.93c99f13.css.map",
+    "main.fb9ac962.js.map": "/aarti22.github.io/static/js/main.fb9ac962.js.map",
+    "453.30d0a8e5.chunk.js.map": "/aarti22.github.io/static/js/453.30d0a8e5.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.93c99f13.css",
+    "static/js/main.fb9ac962.js"
+  ]
+}
