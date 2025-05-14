@@ -1,0 +1,89 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  margin: 0;
+  background: linear-gradient(135deg, #ff85b3, #2d2dff); /* JioHotstar-style pinkish blue */
+  color: #ffffff;
+  min-height: 100vh;
+}
+
+.app {
+  padding: 20px;
+}
+
+.title {
+  color: #ffe3f7; /* Light pink text for title */
+  text-align: center;
+  margin-top: 20px;
+  text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
+}
+
+.section {
+  margin: 40px 0;
+  background-color: rgba(15, 0, 50, 0.6); /* Semi-transparent deep blue */
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 0 15px rgba(255, 133, 179, 0.5); /* Pink glow */
+  transition: 0.3s ease;
+}
+
+.section:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 0 25px rgba(255, 133, 179, 0.7); /* Stronger pink glow on hover */
+}
+
+button {
+  background-color: #ff69b4; /* Hot pink button */
+  border: none;
+  padding: 10px 20px;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 8px;
+  box-shadow: 0 0 8px rgba(255, 105, 180, 0.4);
+  transition: 0.3s ease;
+}
+
+button:hover {
+  background-color: #ff3c96; /* Darker pink on hover */
+  box-shadow: 0 0 15px rgba(255, 105, 180, 0.7);
+}
+
+@keyframes fadeZoom {
+  0% {
+    opacity: 0;
+    transform: scale(0.95);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+.social-icons {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  display: flex;
+  gap: 15px;
+}
+
+.social-icons a {
+  color: #ffbdf2; /* Soft pink */
+  font-size: 24px;
+  transition: transform 0.3s, color 0.3s;
+}
+
+.social-icons a:hover {
+  color: #ffffff;
+  transform: scale(1.2);
+}
+
+.main-content {
+  max-width: 1000px;
+  margin: 0 auto; /* Center horizontally */
+  padding: 40px 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
